@@ -1,25 +1,28 @@
 # module-code_template
+    主仓：https://gitee.com/oldking-ecu
+    镜像：https://github.com/oldking-ecu
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+
+keel(发音[kiːl]剋欧)框架，一种通用的`模块化代码框架`  
+▶ 支持`多实例`配置  
+▶ 支持`配置`和`状态`分开(节省RAM资源)  
+▶ 文件组织分`核心代码`(方法)和`配置代码`(数据)文件  
+▶ 核心代码可以封装成.a/.lib，满足高内聚  
+▶ 使用范围广，可以是`驱动`开发、`协议`开发、`中间件`等模块开发  
 
 #### 软件架构
-软件架构说明
 
+详情见B站`老王ECU软件开发`:
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 1.配置
+配置分为2部分 `每个实例的个性化配置`和`公共的配置`，具体可以参考如ina226、key_scan、i2c_gpio等模块。  
+
+#### 2.使用
+先调用Init，根据具体模块特征，可选的周期Main，以及一些`Feature Funcs`，具体可以参考如ina226、key_scan、i2c_gpio等模块。
 
 #### 参与贡献
 
@@ -29,11 +32,12 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 4.  新建 Pull Request
 
 
-#### 特技
+#### 支持本项目
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+若这个项目帮到了你，不妨点个星标~，愿意的话也可以小额捐赠，感谢每一份认可~~
+
+
+#### 捐赠者致谢
+
+感谢以下朋友支持(按捐赠时间排序)
+1. XXX

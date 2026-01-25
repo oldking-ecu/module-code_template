@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# database
+*.svn
+
 # Object files
 *.o
 *.ko
