@@ -1,14 +1,9 @@
 # Prerequisites
 *.d
 
-<<<<<<< HEAD
 # misc
 *.svn
 *.drawio
-=======
-# database
-*.svn
->>>>>>> 4956724fce08447b41b0ba5d87c72f67c0e905b9
 
 # Object files
 *.o
