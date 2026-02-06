@@ -12,7 +12,7 @@ keel框架(发音[kiːl]剋欧)，一种通用的`模块化代码框架`
 ▶ 使用范围广，可以是`驱动`开发、`协议`开发、`中间件`等模块开发  
 
 #### 软件架构
-详情见B站[老王ECU软件开发](https://space.bilibili.com/522907272):  
+详情见B站：[什么是keel代码框架](https://www.bilibili.com/video/BV1uYzSBHEEe/?share_source=copy_web&vd_source=64c3d4dffc93e47357ce5ad280f13d59)  
 
 程序组成  
 ![](./doc/程序的组成.png)  
